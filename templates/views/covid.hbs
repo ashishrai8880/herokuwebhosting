@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+
+
+    <title>Covid 19 India</title>
+
+    <link rel="stylesheet" href="css/covid.css">
+    
+
+    
+</head>
+
+<body>
+
+    {{>navbar}}
+
+    <div class="conti mt-0">
+        <div class=" mb-11 mt-0">
+            <h1 class="mb-5 py-24 text-center text-3xl">
+                <span class="font-bold text-3xl">INDIA</span> COVID 19 DASHBOARD
+            </h1>
+        </div>
+        <!-- responsive=>auto -->
+        <div class="table-responsive  overflow-y-auto overflow-x-auto">
+            <table class="table flex flex-col flex-wrap mx-auto ">
+                <thead class="thead-black ">
+                    <tr>
+                        <td>State</td>
+                        <td>Confirmed</td>
+                        <td>Recovered</td>
+                        <td>Deaths</td>
+                        <td>Active</td>
+                        <td>Updated</td>
+                    </tr>
+                </thead>
+                
+                <tbody id="stateList" >
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/covid.js"></script>
+</body>
+
+</html>

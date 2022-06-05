@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Times Of India</title>
+</head>
+
+<body class="bg-green-100">
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-11 mx-auto flex flex-wrap-reverse items-center flex-col justify-center">
+
+            <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col  w-full mt-10 md:mt-0">
+
+                <div class="image rounded-full flex item-center justify-center pb-5">
+                    <img class="object-cover w-32" src="images/user-solid.svg" alt="Not Found">
+                </div>
+
+                <form action="/login" method="post">
+
+                    <div class="relative mb-4">
+
+                        <input type="email" id="email" name="email"
+                            class="w-full bg-white rounded-lg border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            placeholder="Email Address or phone number">
+                    </div>
+                    <div class="relative mb-4">
+
+                        <input type="password" id="password" name="password"
+                            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            placeholder="Password">
+                    </div>
+                    <button type="submit"
+                        class="text-white bg-indigo-500  py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg bg-blue-600 w-full">Log
+                        In</button>
+
+                </form>
+
+                <p class="text-xs text-gray-500 mt-3 text-blue-500 hover:underline text-center cursor-pointer">Forgotten
+                    Password?</p>
+
+                <hr class="mt-4">
+                <a href="/signin"
+                    class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg bg-green-500 text-center">Create
+                    Account</a>
+
+            </div>
+
+            <div
+                class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0 flex flex-col item-center justify-center pt-11 space-y-9">
+                <h1 class="title-font font-medium text-3xl text-gray-900 text-center font-bold">News Wala</h1>
+                <p class="leading-relaxed mt-4 text-center font-bold">Place Where You Get Reliable , True News Unlike
+                    Godi Media</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+</body>
+
+</html>

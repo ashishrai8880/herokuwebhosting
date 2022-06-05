@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Monkey</title>
+</head>
+
+<!-- <body style="background: url('https://images.unsplash.com/photo-1546422904-90eab23c3d7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80'); background-repeat: no-repeat; background-position: center; background-size: cover;"  > -->
+
+<body class="bg-green-100">
+
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-11 mx-auto flex flex-wrap items-center justify-center">
+
+
+
+            <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+
+                <div class="icon flex justify-center mb-4">
+                    <img class="w-32" src="images/user-plus-solid.svg" alt="">
+                </div>
+
+                <form action="/signin" method="post">
+
+                    <div class="relative mb-4">
+
+                        <input type="text" id="name" name="name"
+                            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            placeholder="Enter Your Name">
+                    </div>
+                    <div class="relative mb-4">
+
+                        <input type="email" id="email" name="email"
+                            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            placeholder="Email Address">
+                    </div>
+                    <div class="relative mb-4">
+
+                        <input type="password" id="password" name="password"
+                            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            placeholder="Set Password">
+                    </div>
+                    <div class="relative mb-4">
+
+                        <input type="password" id="confirmPassword" name="confirmPassword"
+                            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            placeholder="Confirm Password">
+                    </div>
+                    <button type="submit"
+                        class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-700 rounded text-lg bg-blue-600">Register</button>
+
+                </form>
+
+                <a href="/"
+                    class="text-center text-xs text-gray-500 mt-3 text-blue-500 cursor-pointer hover:underline">Already
+                    have an
+                    account?</a>
+            </div>
+
+            <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0 px-5">
+                <h1 class="title-font font-medium text-3xl text-gray-900 text-center">Just Register quick and see
+                    Magical News</h1>
+                <img class="object-cover mx-auto" src="https://www.cowin.gov.in/assets/images/what's_new_on_cowin.svg"
+                    alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</body>
+
+</html>
